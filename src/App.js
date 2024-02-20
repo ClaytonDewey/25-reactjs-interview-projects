@@ -3,9 +3,10 @@
 // import StarRating from './components/star-rating';
 // import ImageSlider from './components/image-slider';
 // import LoadMoreData from './components/load-more-data';
+// import TreeView from './components/tree-view';
+// import menus from './components/tree-view/data';
 
-import TreeView from './components/tree-view';
-import menus from './components/tree-view/data';
+import QRCodeGenerator from './components/qr-code-generator';
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
       {/* Load more products component */}
       {/* <LoadMoreData /> */}
       {/* Tree view component */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+      {/* QR Code Generator */}
+      <QRCodeGenerator />
     </div>
   );
 }
