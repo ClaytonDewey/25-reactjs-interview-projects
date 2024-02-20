@@ -44,7 +44,7 @@ export default function ImageSlider({ url, limit = 5, page = 1 }) {
   if (errorMsg !== null) {
     return <div>Error occured ! {errorMsg}</div>;
   }
-  console.log(currentSlide);
+
   return (
     <div className='container'>
       <BsArrowLeftCircleFill
