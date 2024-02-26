@@ -10,8 +10,8 @@
 // import ScrollIndicator from './components/scroll-indicator';
 // import TabTest from './components/custom-tabs/tab-test';
 // import ModalTest from './components/custom-modal-popup/modal-test';
-
-import GithubProfileFinder from './components/github-profile-finder';
+// import GithubProfileFinder from './components/github-profile-finder';
+import SearchAutocomplete from './components/search-autocomplete-with-api';
 
 function App() {
   return (
@@ -38,7 +38,9 @@ function App() {
       {/* Custom Modal */}
       {/* <ModalTest /> */}
       {/* Github Profile Finder */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+      {/* Search Autocomplete */}
+      <SearchAutocomplete />
     </div>
   );
 }
