@@ -11,11 +11,13 @@
 // import TabTest from './components/custom-tabs/tab-test';
 // import ModalTest from './components/custom-modal-popup/modal-test';
 // import GithubProfileFinder from './components/github-profile-finder';
-import SearchAutocomplete from './components/search-autocomplete-with-api';
+// import SearchAutocomplete from './components/search-autocomplete-with-api';
+
+import TicTacToe from './components/tic-tac-toe';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       {/* Accordion component */}
       {/* <Accordion /> */}
       {/* Random Color component */}
@@ -40,7 +42,9 @@ function App() {
       {/* Github Profile Finder */}
       {/* <GithubProfileFinder /> */}
       {/* Search Autocomplete */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+      {/* Tic Tac Toe */}
+      <TicTacToe />
     </div>
   );
 }
