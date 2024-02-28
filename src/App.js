@@ -15,9 +15,9 @@
 // import TicTacToe from './components/tic-tac-toe';
 // import FeatureFlags from './components/feature-flag';
 // import FeatureFlagsGlobalState from './components/feature-flag/context';
+// import UseOnclickOutsideTest from './components/use-outside-click/test';
 
-import UseFetchHookTest from './components/use-fetch/test';
-import UseOnclickOutsideTest from './components/use-outside-click/test';
+import UseWindowResizeTest from './components/use-window-resize/test';
 
 function App() {
   return (
@@ -56,7 +56,9 @@ function App() {
       {/* UseFetch - Custom Hook */}
       {/* <UseFetchHookTest /> */}
       {/* UseOutsideClick - Custom Hook */}
-      <UseOnclickOutsideTest />
+      {/* <UseOnclickOutsideTest /> */}
+      {/* UseWindowResize - Custom Hook */}
+      <UseWindowResizeTest />
     </div>
   );
 }
