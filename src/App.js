@@ -16,12 +16,13 @@
 // import FeatureFlags from './components/feature-flag';
 // import FeatureFlagsGlobalState from './components/feature-flag/context';
 // import UseOnclickOutsideTest from './components/use-outside-click/test';
-
-import UseWindowResizeTest from './components/use-window-resize/test';
+// import UseWindowResizeTest from './components/use-window-resize/test';
+// import ScrollToTopAndBottom from './components/scroll-to-top-and-bottom';
+import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='container-fluid'>
       {/* Accordion component */}
       {/* <Accordion /> */}
       {/* Random Color component */}
@@ -58,7 +59,11 @@ function App() {
       {/* UseOutsideClick - Custom Hook */}
       {/* <UseOnclickOutsideTest /> */}
       {/* UseWindowResize - Custom Hook */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+      {/* Scroll to top and bottom */}
+      {/* <ScrollToTopAndBottom /> */}
+      {/* Scroll to Section */}
+      <ScrollToSection />
     </div>
   );
 }

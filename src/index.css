@@ -18,3 +18,9 @@ code {
   margin: 20px auto;
   text-align: center;
 }
+
+.container-fluid {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
